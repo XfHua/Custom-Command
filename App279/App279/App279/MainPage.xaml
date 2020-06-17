@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:app279="clr-namespace:App279"
+             mc:Ignorable="d"
+             x:Name="myPage"
+             x:Class="App279.MainPage">
+
+    <StackLayout>
+
+        <Label Text="test"></Label>
+
+        <app279:View1 x:Name="View1" Command="{Binding nextCommand}" BackgroundColor="Blue">
+
+        </app279:View1>
+
+        <Button Text="button" Command="{Binding nextCommand}" BackgroundColor="Red"></Button>
+    </StackLayout>
+
+</ContentPage>
